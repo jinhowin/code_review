@@ -7,11 +7,11 @@ void Goods::SetGoodsInfo(int index, int price) {
 }
 
 // Return index information
-int Goods::GetIndex() {
+int Goods::GetGoodsIndex() {
   return goods_index_;
 }
 
 // Return price informaiton
-int Goods::GetPrice() {
+int Goods::GetGoodsPrice() {
   return goods_price_;
 }
